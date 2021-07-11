@@ -1,0 +1,44 @@
+[
+  {
+    "client": "promotionplus",
+    "earnings": 800,
+    "hours": null,
+    "euros": null,
+    "description": "livewellcontest"
+  },
+  {
+    "client": "Lomax",
+    "earnings": null,
+    "hours": 9,
+    "euros": 20,
+    "description": "Aggiunta blocchi all news WLO"
+  },
+  {
+    "client": "Lomax",
+    "earnings": null,
+    "hours": 2,
+    "euros": 20,
+    "description": "Pulite varie cache e settati parametri"
+  },
+  {
+    "client": "Lomax",
+    "earnings": null,
+    "hours": 7,
+    "euros": 20,
+    "description": "Aggiunta form WLO"
+  },
+  {
+    "client": "Lomax",
+    "earnings": null,
+    "hours": 1,
+    "euros": 20,
+    "description": "Modifica Tabella news con le views"
+  },
+  {
+    "client": "Lomax",
+    "earnings": null,
+    "hours": 1,
+    "euros": 20,
+    "description": "Aggiunta moderazione dei commenti fb"
+  }
+]
