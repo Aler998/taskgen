@@ -7,6 +7,7 @@ const getEarnings = require('./utils/getEarnings')
 const list = require('./utils/list')
 const newTask = require('./utils/newTask')
 const path = require('path')
+const increment = require('./utils/increment')
 
 program.version('1.0.1').description('Command line task tracker')
 
@@ -58,4 +59,12 @@ program
 program
     .command('mail')
     .requiredOption('-t, --to <string>', 'Dest of mail')
+
+program
+    .command('increment')
+    .requiredOption('-i, --index <number>', 'index of the task to increment')
+    .option('-r, --reverse', 'decrement instead of increment')
+    .action((options) => {
+        increment(options.index, options.reverse)
+    })
 program.parse(process.argv);
